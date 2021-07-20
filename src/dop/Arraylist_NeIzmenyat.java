@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class arraylistNeIzmenyat {
+public class Arraylist_NeIzmenyat {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-public class arraylistRazbienieNaKeyValues {
+public class Arraylist_RazbienieNaKeyValues {
     public static void main(String[] args) {
 
         HashMap<Integer, String> passportsAndNames = new HashMap<>();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class arraylistNaoborot {
+public class Arraylist_Naoborot {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

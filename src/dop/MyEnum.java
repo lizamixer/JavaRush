@@ -1,6 +1,6 @@
 package dop;
 
-public class myEnum {
+public class MyEnum {
     public enum Month {
 
         JANUARY("Январь", 31),

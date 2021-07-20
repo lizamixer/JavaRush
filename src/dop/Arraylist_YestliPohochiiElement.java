@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class arraylistYestliPohochiiElement {
+public class Arraylist_YestliPohochiiElement {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

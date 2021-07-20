@@ -7,7 +7,7 @@ enum Month {
     MARCH
 }
 
-public class switchEnum {
+public class SwitchEnum {
 
     public void printHolidays(Month month) {
 
@@ -29,7 +29,7 @@ public class switchEnum {
 class Main {
     public static void main(String[] args) {
 
-        switchEnum reminder = new switchEnum();
+        SwitchEnum reminder = new SwitchEnum();
         reminder.printHolidays(Month.JANUARY);
     }
 }

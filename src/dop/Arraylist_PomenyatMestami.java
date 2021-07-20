@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class arraylistPomenyatMestami {
+public class Arraylist_PomenyatMestami {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

@@ -6,7 +6,7 @@ package dop;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class arraylistPeremeshka {
+public class Arraylist_Peremeshka {
     public static void main(java.lang.String[] args) {
 
         ArrayList<Integer> lottery = new ArrayList<>(100);
