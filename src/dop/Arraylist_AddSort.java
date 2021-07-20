@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class arraylistAddSort {
+public class Arraylist_AddSort {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

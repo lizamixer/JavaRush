@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class arraylistLinkedListTime {
+public class ArraylistLinked_ListTime {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
 

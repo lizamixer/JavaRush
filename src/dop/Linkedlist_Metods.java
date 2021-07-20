@@ -5,10 +5,10 @@ package dop;
 
 import java.util.LinkedList;
 
-public class linkedlistMetods {
+public class Linkedlist_Metods {
     String model;
 
-    public linkedlistMetods(String model) {
+    public Linkedlist_Metods(String model) {
         this.model = model;
     }
 /*

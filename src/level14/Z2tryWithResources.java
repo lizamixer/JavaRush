@@ -6,7 +6,6 @@ package level14;
 //Не забудь о вызове метода close() для объектов с внешними ресурсами.
 
 import java.util.Scanner;
-//стало
 public class Z2tryWithResources {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,13 +14,12 @@ public class Z2tryWithResources {
             System.out.println(line.toUpperCase());
         } catch (Exception e) {
             System.out.println("Something went wrong : " + e);
-        }
-        finally
-        {
+        } finally {
             scanner.close();
         }
     }
 }
+
 /*было
 public class Solution {
     public static void main(String[] args) {
