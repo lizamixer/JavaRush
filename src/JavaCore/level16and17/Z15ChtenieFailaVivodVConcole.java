@@ -22,8 +22,7 @@ public class Z15ChtenieFailaVivodVConcole {
         StringBuilder sb = new StringBuilder();
         int code = -1;
 
-        while ((code = fr.read()) != -1)
-        {
+        while ((code = fr.read()) != -1) {
             sb.append(Character.toChars(code));
         }
         System.out.println(sb.toString());

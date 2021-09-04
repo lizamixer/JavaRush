@@ -12,6 +12,7 @@ package level9;
 //m - - - - r
 //s t u v w x
 //почему когда то нужно писать скобки в chars[i].length, а иногда нет, например в задаче 27 и 25?
+
 public class Z26 {
     public static void main(String[] args) {
         char[][] chars = new char[4][6];

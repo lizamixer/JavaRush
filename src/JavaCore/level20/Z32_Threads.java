@@ -36,7 +36,7 @@ public class Z32_Threads {
         threads.add(new TestThread1());
         threads.add(new TestThread2());
         threads.add(new TestThread3());
-        threads.add(new TestThread4());
+        //threads.add(new TestThread4());
         threads.add(new TestThread5());
     }
 
@@ -73,19 +73,19 @@ public class Z32_Threads {
         }
     }
 
-    public static class TestThread4 extends Thread implements Message {
-        boolean exit = false;
-
-        public void run() {
-            while (!exit) {
-            }
-        }
-
-        @Override
-        public void showWarning() {
-            exit = true;
-        }
-    }
+//    public static class TestThread4 extends Thread implements Message {
+//        boolean exit = false;
+//
+//        public void run() {
+//            while (!exit) {
+//            }
+//        }
+//
+//        @Override
+//        public void showWarning() {
+//            exit = true;
+//        }
+//    }
 
     public static class TestThread5 extends Thread {
         public void run() {

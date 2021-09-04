@@ -1,5 +1,7 @@
 package level19Core.Z23_BuffFileReaderConsole;
 
+import JavaCore.level19.Z23_BuffFileReaderConsole.Statics;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

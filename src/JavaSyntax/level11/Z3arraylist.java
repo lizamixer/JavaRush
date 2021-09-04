@@ -15,8 +15,7 @@ public class Z3arraylist {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < 5; i++)
-        {
+        for (int i = 0; i < 5; i++) {
             int s = scanner.nextInt();
             integers.add(s);
         }
