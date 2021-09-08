@@ -15,7 +15,7 @@ package level9;//1
 //Класс Cat создавать не надо. Для боя используй метод boolean fight(Cat anotherCat).
 //Результат каждого боя выведи на экран c новой строки.
 
-public class Z64metodiobject {
+public class Z64_MethodsiObject {
     public static class Cat {
         private String name;
         private int age;
