@@ -57,9 +57,4 @@ public class Z8_IOHalfOfTheFile {
         }
     }
 }
-
-/Users/elizavetaandryushina/Desktop/Liza.txt
-/Users/elizavetaandryushina/Desktop/Liza2.txt
-/Users/elizavetaandryushina/Desktop/Liza3.txt
-
  */

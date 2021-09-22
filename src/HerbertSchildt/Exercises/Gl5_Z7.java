@@ -12,20 +12,19 @@ public class Gl5_Z7 {
         System.out.println("Исходное сообщение: " + msg);
 
         //шифрование сообщения
-
-        for (int i = 0; i > msg.length(); i++) {
-            //encmsg = encmsg + (char) msg.charAt(i) ^ key.charAt(j);
+        for (int i = 0; i < msg.length(); i++) {
+            encmsg = encmsg + (char) (msg.charAt(i) ^ key.charAt(j));
             j++;
-            if (j==8) j=0;
+            if (j == 8) j = 0;
         }
         System.out.println("Зашифрованное сообщение: " + encmsg);
 
         //дешифровка сообщения
-        for (int i = 0; i > msg.length(); i++) {
-            //decmsg = decmsg + (char) encmsg.charAt(i) ^ key.charAt(j);
+        for (int i = 0; i < msg.length(); i++) {
+            decmsg = decmsg + (char) (encmsg.charAt(i) ^ key.charAt(j));
             j++;
-            if (j==8) j=0;
+            if (j == 8) j = 0;
         }
-        System.out.println("Зашифрованное сообщение: " + encmsg);
+        System.out.println("Дешифрованное сообщение: " + decmsg);
     }
 }
