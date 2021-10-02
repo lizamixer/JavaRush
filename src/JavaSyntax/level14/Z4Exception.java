@@ -7,8 +7,7 @@ public class Z4Exception {
     public static void main(String[] args) {
         try {
             divideByZero();
-        }
-        catch (ArithmeticException e) {
+        } catch (ArithmeticException e) {
             e.printStackTrace();
         }
     }
