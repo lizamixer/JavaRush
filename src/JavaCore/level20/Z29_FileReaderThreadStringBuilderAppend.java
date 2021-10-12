@@ -101,8 +101,6 @@ public class Z29_FileReaderThreadStringBuilderAppend {
         }
     }
 }
-// /Users/elizavetaandryushina/Desktop/Liza.txt
-// /Users/elizavetaandryushina/Desktop/Liza2.txt
 
 /*
 public class Solution {

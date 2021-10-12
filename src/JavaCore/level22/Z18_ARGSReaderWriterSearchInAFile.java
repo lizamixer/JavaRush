@@ -53,7 +53,6 @@ public class Z18_ARGSReaderWriterSearchInAFile {
             int id2 = 0;
             String line = reader.readLine();
             while (line != null) {
-
                 number = line.substring(0, 8).trim(); //поиск айдишника
                 id2 = Integer.parseInt(number);
                 if (id1 < id2) id1 = id2;
