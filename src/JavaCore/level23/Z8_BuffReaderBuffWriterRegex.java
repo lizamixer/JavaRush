@@ -36,6 +36,7 @@ public class Z8_BuffReaderBuffWriterRegex {
              BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file2))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
+                //поиск в строке по паттерну
                 Matcher matcher = pattern.matcher(line);
                 while (matcher.find()) {
                     bufferedWriter.write(matcher.group() + " ");
