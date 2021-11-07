@@ -29,10 +29,10 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) throws IOException, ParseException {
-//        PersonScanner ps = new PersonScannerAdapter(new Scanner(new File("/Users/elizavetaandryushina/Desktop/Liza.txt")));
-//        Person person = ps.read();
-//        System.out.println(person);
-//        ps.close();
+        PersonScanner ps = new PersonScannerAdapter(new Scanner(new File("/Users/elizavetaandryushina/Desktop/Liza.txt")));
+        Person person = ps.read();
+        System.out.println(person);
+        ps.close();
 
     }
 
@@ -47,9 +47,11 @@ public class Solution {
         public Person read() throws IOException, ParseException {
             String line = fileScanner.nextLine();
             String[] arr = line.split(" ", 4);
+
             String date = arr[3];
             SimpleDateFormat formatter = new SimpleDateFormat("dd MM yyyy", Locale.ENGLISH);
             Date newDate = formatter.parse(date);
+
             return new Person(arr[1], arr[2], arr[0], newDate);
         }
 
