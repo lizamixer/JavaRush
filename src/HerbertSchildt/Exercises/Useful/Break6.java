@@ -1,4 +1,4 @@
-package HerbertSchildt;
+package HerbertSchildt.Exercises.Useful;
 
 //Расположение метки имеет большое значение
 

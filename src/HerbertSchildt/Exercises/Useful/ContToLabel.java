@@ -1,4 +1,4 @@
-package HerbertSchildt;
+package HerbertSchildt.Exercises.Useful;
 
 //Применение конструкции continue с меткой
 

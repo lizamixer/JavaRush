@@ -1,4 +1,4 @@
-package HerbertSchildt;
+package HerbertSchildt.Exercises.Useful;
 
 //break c меткой
 

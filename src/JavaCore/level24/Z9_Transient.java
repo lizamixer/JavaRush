@@ -36,17 +36,19 @@ public class Z9_Transient implements Serializable {
         File fileName = new File("/Users/elizavetaandryushina/Desktop/Liza2.txt"); //1
         OutputStream outputStream = new FileOutputStream(fileName);
         InputStream inputStream = new FileInputStream(fileName);
+
         Z9_Transient savedObject = new Z9_Transient(1); //2
 
         PrintWriter pw = new PrintWriter(outputStream); //3
         pw.print(savedObject);
-        Z9_Transient savedObject2 = new Z9_Transient(2);
         pw.close();
         outputStream.close();
 
         Z9_Transient loadedObject = new Z9_Transient(2); //4
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+
         loadedObject.string = br.readLine(); //5
+
         System.out.println(savedObject.string.equals(loadedObject.string)); //6
         br.close();
         inputStream.close();

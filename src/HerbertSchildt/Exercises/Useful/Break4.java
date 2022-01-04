@@ -1,4 +1,4 @@
-package HerbertSchildt;
+package HerbertSchildt.Exercises.Useful;
 
 //Применение инструкции break с меткой
 
