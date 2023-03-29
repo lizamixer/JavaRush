@@ -1,7 +1,6 @@
-package dop;
+package Other;
 
 //Еще одна рядовая ситуация, которая может произойти во время работы — программист добавил элементы в неправильном порядке.
-//
 //Если такое произошло, и Меркурий и Нептун неожиданно поменялись местами — исправить эту оплошность нам поможет метод swap():
 //В метод swap() мы передали наш список, а также индексы двух элементов, которые нужно
 // поменять местами. Обрати внимание: метод работает именно с индексами, а не со ссылками.
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Arraylist_PomenyatMestami {
+public class Arraylist_swap {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

@@ -1,9 +1,9 @@
-package dop;
+package Other.dop;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Hashmap_PereborMap {
+public class Hashmap {
     public static void main(String[] args) {
         HashMap<Integer, String> passportsAndNames = new HashMap<>();
         HashMap<Integer, String> passportsAndNames2 = new HashMap<>();

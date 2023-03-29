@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Stream {
+public class FIS_FOS {
     public static void main(String[] args) {
         copyFile("/Users/elizavetaandryushina/Desktop/Liza.txt", "/Users/elizavetaandryushina/Desktop/Liza2.txt");
     }

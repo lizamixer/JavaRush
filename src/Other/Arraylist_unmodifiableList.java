@@ -1,7 +1,7 @@
-package dop;
+package Other;
 
 //В классе Collections есть очень интересный метод — unmodifiableList().
-// Он создает из переданного списка его неизменяемый вариант. В него нельзя будет ни добавить, ни удалить элемент.
+//Он создает из переданного списка его неизменяемый вариант. В него нельзя будет ни добавить, ни удалить элемент.
 //Единственное, на что  в данном случае нужно обратить внимание — тип переменной
 //должен быть List<>, а не ArrayList<> (данный метод возвращает объект именно такого типа, общего для всех видов списков).
 
@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Arraylist_NeIzmenyat {
+public class Arraylist_unmodifiableList {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

@@ -1,10 +1,10 @@
-package dop;
+package Other.dop;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Arraylist_Naoborot {
+public class Arraylist_Reverse {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

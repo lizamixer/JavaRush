@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 
-public class Stream2 {
+public class FIS_FOS_2 {
     public static void main(String[] args) {
         final String fileName = "/Users/elizavetaandryushina/Desktop/Liza.txt";    // Подставить имя текстового файла
 

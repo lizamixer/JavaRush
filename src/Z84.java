@@ -2,8 +2,8 @@
 // salary класса Solution на переданное значение, но при выводе
 // поля salary получаем 0. Сделай так, чтобы программа работала правильно.
 
-//было
-/*
+
+/* было
 public class Z84iminaperemennix {
     public static int salary;
 
@@ -19,11 +19,11 @@ public class Z84iminaperemennix {
  */
 
 //стало
-public class Z84_ImenaPeremennix {
+public class Z84 {
     public static int salary;
 
     public static void add(int increase) {
-        int salary1 = Z84_ImenaPeremennix.salary;
+        int salary1 = Z84.salary;
         salary = salary1+ increase;
     }
     public static void main(String[] args) {

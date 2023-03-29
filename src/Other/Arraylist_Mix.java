@@ -1,4 +1,4 @@
-package dop;
+package Other.dop;
 
 //Например, мы пытаемся реализовать механизм работы лотереи.
 // Мы добавили в барабан 100 чисел, которые по одному должны появляться на экране.
@@ -6,7 +6,7 @@ package dop;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Arraylist_Peremeshka {
+public class Arraylist_Mix {
     public static void main(java.lang.String[] args) {
 
         ArrayList<Integer> lottery = new ArrayList<>(100);

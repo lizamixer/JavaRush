@@ -4,7 +4,7 @@ import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class Chtenie_Iz_Faila {
+public class ReadFromFile {
     public static void main(String[] args) throws Exception {
         InputStream inputStream = null;
         BufferedInputStream buffer = null;

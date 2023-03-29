@@ -1,14 +1,12 @@
-package dop;
+package Other.dop;
 
 //Однако, у LinkedList есть отдельные методы для работы с началом и концом списка, которых нет в ArrayList:
 //addFirst(), addLast(): методы для добавления элемента в начало/конец списка
 
-import java.util.LinkedList;
-
-public class Linkedlist_Metods {
+public class Linkedlist_Methods {
     String model;
 
-    public Linkedlist_Metods(String model) {
+    public Linkedlist_Methods(String model) {
         this.model = model;
     }
 /*

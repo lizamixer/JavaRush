@@ -1,4 +1,4 @@
-package dop;
+package Other.dop;
 
 //Напоследок познакомимся с очень интересным методом — disjoint().
 //
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Arraylist_YestliPohochiiElement {
+public class Arraylist_Search {
     public static void main(java.lang.String[] args) {
 
         String mercury = new String("Меркурий");

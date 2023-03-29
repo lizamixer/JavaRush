@@ -23,7 +23,7 @@ Requirements:
 4. Метод getNumbers должен возвращать массив чисел удовлетворяющих условию задачи.
  */
 
-public class Solution {
+public class Z21_ANumOldDecision {
     public static Long[] getNumbers(long N) {
         ArrayList<Long> preres = new ArrayList<Long>();
         for (long i = 0; i < N; i++) {
