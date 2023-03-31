@@ -8,7 +8,6 @@ class CustomTree extends AbstractList<String> implements Cloneable, Serializable
     Entry<String> root; //4
     List<Entry<String>> list = new ArrayList<>(); //4
 
-
     @Override
     public String get(int index) {
         throw new UnsupportedOperationException();  //2 добавила выхов исколючения
@@ -21,7 +20,6 @@ class CustomTree extends AbstractList<String> implements Cloneable, Serializable
 
     @Override
     public int size() {
-        //if ((list.size() > 2) && ((list.size() & (list.size() - 1)) == 0)) return list.size()/2 + 1;
         return list.size() - 1; //4
     }
 
@@ -30,8 +28,12 @@ class CustomTree extends AbstractList<String> implements Cloneable, Serializable
         throw new UnsupportedOperationException(); //2 добавила выхов исколючения
     }
 
+    public String remove(int index) {
+        throw new UnsupportedOperationException();
+    }
+
     @Override
-    public boolean add(String s) { //4 описали метод
+    public boolean add(String s) {
         Entry<String> entry = new Entry<>(s);
 
         for (Entry currEntry : list) {
@@ -54,12 +56,22 @@ class CustomTree extends AbstractList<String> implements Cloneable, Serializable
         return false;
     }
 
-    public boolean remove(Object o) {
+    // Рекурсивная функция для обхода дерева в глубину
+    public void treePassed(Entry<?> element) { //5 добавила метод
+        if (element == null) {
+            return; //выходим из цикла
+        }
+        treePassed(element.leftChild); //проходим сначала в глубину по левою сторону
+        treePassed(element.rightChild); //потом по правой
+        list.remove(element); //каждый раз проходя цикл удаляем вершину
+    }
+
+    public boolean remove(Object o) { //5 добавила метод
         if (!(o instanceof String)) throw new UnsupportedOperationException();
         Entry<String> element = null;
         Entry<String> elementParent = null;
 
-        for (Entry<String> stringEntry : list) { //нашли элемент и родителя
+        for (Entry<String> stringEntry : list) { //нашли элемент и родителя чтобы потом с ним работать
             if (o.equals(stringEntry.elementName)) {
                 element = stringEntry;
                 elementParent = element.parent;
@@ -67,23 +79,16 @@ class CustomTree extends AbstractList<String> implements Cloneable, Serializable
             }
         }
 
-        if (element.leftChild != null) {
-            list.remove(element.leftChild);
-        }
-        if (element.rightChild != null) {
-            list.remove(element.rightChild);
-        }
+        treePassed(element);
 
-        if (elementParent.leftChild == element) {
-            elementParent.leftChild = null;
+        if (elementParent.leftChild == element) { //добавляем rooty возможность добавлять детей
+            //elementParent.leftChild = null;
             elementParent.availableToAddLeftChildren = true;
         } else {
-            elementParent.rightChild = null;
+            //elementParent.rightChild = null;
             elementParent.availableToAddRightChildren = true;
         }
-
-        list.remove(element);
-        return false;
+        return true;
     }
 
     public String getParent(String s) {
