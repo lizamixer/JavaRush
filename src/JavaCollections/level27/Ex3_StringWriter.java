@@ -7,7 +7,6 @@ import java.io.*;
 Возвращаемый объект ни при каких условиях не должен быть null.
 Метод main не участвует в тестировании.
 
-
 Requirements:
 1. Публичный статический метод getAllDataFromInputStream (InputStream) должен существовать.
 2. Метод getAllDataFromInputStream (InputStream) должен возвращать StringWriter.
