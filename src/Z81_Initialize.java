@@ -17,7 +17,7 @@ public class Z81inizialize {
 */
 
 //cтало
-public class Z81_Inizialize {
+public class Z81_Initialize {
     public static void main(String[] args) {
         int[] array = new int[10];
         for (int i = 0; i < 10; i++) {

@@ -1,4 +1,4 @@
-package JavaCollections.level26.Z12_properties;
+package JavaCollections.level26.Z12_Properties;
 
 import java.io.*;
 import java.nio.file.Path;

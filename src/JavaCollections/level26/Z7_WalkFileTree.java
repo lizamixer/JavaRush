@@ -32,7 +32,7 @@ Requirements:
 6. На консоль должна быть выведена следующая информация: "Общий размер - [общее количество байт, которое хранится в директории]".
  */
 
-public class Z7_walkFileTree {
+public class Z7_WalkFileTree {
 
     public static class SearchFileVisitor extends SimpleFileVisitor<Path> {
         private int countDir;
